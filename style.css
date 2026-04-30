@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(to bottom right, hsla(33, 100%, 50%, 1), hsla(47, 100%, 50%, 1), hsla(63, 100%, 50%, 1));
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonsRow{
+  display: flex;
+  gap: 10px;
+  margin-top: 10rem;
+}
+h1{
+  font-size: 10rem;
+  color: white;
+}
+button{
+  height: 80px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: black;
+}
+#subBtn{
+  background-color: hsla(0, 100%, 50%, 1);
+  font-size: 3rem;
+}
+#subBtn:active{
+  background-color: hsla(0, 100%, 40%, 1);
+}
+#clearBtn{
+  background-color: hsla(62, 100%, 50%, 1);
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+#clearBtn:active{
+  background-color: hsla(62, 100%, 40%, 1);
+}
+#addBtn{
+  background-color: hsla(100, 100%, 50%, 1);
+  font-size: 3rem;
+}
+#addBtn:active{
+  background-color: hsla(100, 100%, 40%, 1);
+}
