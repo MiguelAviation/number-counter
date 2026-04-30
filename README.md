@@ -7,7 +7,7 @@ A simple beginner friendly web app built using HTML, CSS and JavaScript. It allo
 ---
 
 ## Site
-https://miguelaviation.github.io/number-counter/
+https://miguelcubar.github.io/number-counter/
 
 ---
 
